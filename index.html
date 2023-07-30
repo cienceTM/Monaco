@@ -44,7 +44,10 @@
 			// Variables
 			var editor;
 			var Proposals = [];
-			
+			function select_body() {
+    				var range = document.body.createTextRange(); 
+    				range.select();
+				}
 			require(['vs/editor/editor.main'], function () {
 				function getDependencyProposals() {
 					return Proposals;
