@@ -233,7 +233,7 @@
                 var ColorContructors = ["ColorSequence", "Color3", "ColorSequenceKeypoint"]
                 var Keywords = ["and","for","or","break","function","repeat","do","if","return","else","in","then","elseif","local","true","end","nil","until","false","not","while"];
                 var Folders = ["game", "secure"]
-                var Functions = ["new", "getexecutorID", "setidentity", "getidentity", "isluau"];
+                var Functions = ["new", "getexecutorID", "setidentity", "getidentity", "isluau", "printidentity"];
                 var GuiObjectProperties = ["Size", "Position", "AnchorPoint", "LayoutOrder", "BorderColor3", "BackgroundColor3", "BorderMode", "AutomaticSize", "Active"]
                 var GuiObjectEvents = ["InputBegan", "InputChanged", "InputEnded", "MouseEnter", "MouseLeave", "MouseMoved", "MouseWheelBackward", "MouseWheelForward", "SelectionGained"]
                 var InstanceProperties = ["Parent", "Name", "RobloxLocked", "SourceAssetId", "Archiviable"]
